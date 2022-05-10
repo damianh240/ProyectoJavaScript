@@ -35,7 +35,7 @@ p, a {font-weight: 400;}
   width: 150px;
   display:block;
   position: absolute;
-  border-bottom:  5px solid #6266ea;
+  border-bottom:  5px solid #ee7331;
   padding-top: .5em;
 }
 .typo-space-line-center::after {
@@ -43,10 +43,19 @@ p, a {font-weight: 400;}
   margin-left: -75px;
 }
 /* Main Nav */
-#main_nav .nav-item .nav-link:hover {color: #fff;}
+#main_nav .nav-item .nav-link:hover {color: rgb(0, 0, 0);}
+/* Agregado DH*/
+#main_nav .h1{
+  display:contents;
+}
+#main_nav .nav-img{
+  width: 5%;
+  margin: 0px 10px;
+}
+
 /* Home */
 #index_banner {
-  background-image: url('./../img/banner-bg-01.jpg');
+  background-image: url('./../img/CAI-banner-bg-01.jpg');
   background-position: center center; background-size: cover;
   height: 100%;
   min-height: 60vh;
@@ -57,7 +66,7 @@ p, a {font-weight: 400;}
 }
 #index_banner .carousel-control-prev i,
 #index_banner .carousel-control-next i {
-  color: #6266ea !important;
+  color: #ee7331 !important;
   text-decoration: none;
   font-size: 4em;
 }
@@ -66,8 +75,8 @@ p, a {font-weight: 400;}
 }
 #index_banner .carousel-indicators li,
 #index_banner .carousel-indicators.active {
-  background-color: #6266ea !important;
-  // las rayas de abajo del carrousel van de color azul
+  background-color: #ee7331 !important;
+  /* las rayas de abajo del carrousel van de color azul */
 }
 .service-wrapper .service-footer {
   max-width: 720px;
@@ -97,7 +106,7 @@ p, a {font-weight: 400;}
 }
 .recent-work .recent-work-vertical {
 	background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 33.333%, rgba(97,84,199,1) 66.666%, rgba(255,255,255,0) 99.999%);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 33.333%, #ee7331 66.666%, rgba(255,255,255,0) 99.999%);
   background-size: 300% 300%;
   background-position: 0% 100%;
   transition: .5s;
@@ -131,12 +140,12 @@ p, a {font-weight: 400;}
   width: 8rem;
 }
 .partner-wap {
-  background-color: #7276ec;
+  background-color: #ee7331;
   transition: 1s;
   cursor: pointer;
 }
 .partner-wap:hover {
-  background-color: #b1b3f5;
+  background-color: #ee7331;
 }
 .why-us {
   background: rgb(239,239,253);
