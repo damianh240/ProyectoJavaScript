@@ -4263,7 +4263,8 @@ fieldset:disabled .btn {
 /* line 115, src/assets/scss/mixins/_buttons.scss */
 .btn-outline-warning:disabled, .btn-outline-warning.disabled {
   color: #ffc107;
-  background-color: transparent;
+  background-color: #000000;
+  /* background-color: transparent; */
 }
 
 /* line 65, src/assets/scss/_buttons.scss */
