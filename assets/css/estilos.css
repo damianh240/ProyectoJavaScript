@@ -47,6 +47,8 @@ p, a {
 }
 /* Main Nav */
 #main_nav .nav-item .nav-link:hover {color: rgb(0, 0, 0);}
+#main_nav .nav-item .nav-link {color: rgb(255, 255, 255);}
+
 /* Agregado DH*/
 #main_nav .h1{
   display:contents;
@@ -228,4 +230,7 @@ footer a.text-light:hover {
 .logos-redes{
   width: 20%;
   max-width: 70px;
+}
+.contact-text {
+  font-size: x-large;
 }
